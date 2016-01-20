@@ -1,0 +1,27 @@
+{
+  "name": "monkify",
+  "version": "1.0.0",
+  "repository": "mgmcdermott/monkify",
+  "description": "A fork of tj's co-monk. co/thunkify wrappers updated for recent versions of monk",
+  "keywords": [
+    "co",
+    "monk",
+    "generators",
+    "mongo",
+    "mongodb"
+  ],
+  "dependencies": {
+    "thunkify": "0.0.1"
+  },
+  "devDependencies": {
+    "co": "~2.3.0",
+    "mocha": "*",
+    "mongodb": "^1.4.40",
+    "monk": "^1.0.1",
+    "should": "*"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
