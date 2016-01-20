@@ -1,7 +1,7 @@
 
 # monkify
 
-  A fork of tj's co-monk. co/thunkify wrappers updated for recent versions of monk.
+  A fork of [tj's co-monk](https://github.com/tj/co-monk). co/thunkify wrappers updated for recent versions of monk.
 
 ## Installation
 
