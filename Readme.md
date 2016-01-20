@@ -1,12 +1,12 @@
 
-# co-monk
+# monkify
 
-  MongoDB with generator goodness.
+  A fork of tj's co-monk. co/thunkify wrappers updated for recent versions of monk.
 
 ## Installation
 
 ```
-$ npm install co-monk
+$ npm install monkify
 ```
 
 ## Setup
@@ -35,8 +35,10 @@ yield users.insert({ name: 'Jane', species: 'ferret' });
 var res = yield users.findOne({ name: 'Tobi' });
 res.name.should.equal('Tobi');
 
+yield users.removeById(res._id);
+
 var res = yield users.find({ species: 'ferret' });
-res.should.have.length(3);
+res.should.have.length(2);
 ```
 
   Parallel inserts:
@@ -53,8 +55,10 @@ yield [
 var res = yield users.findOne({ name: 'Tobi' });
 res.name.should.equal('Tobi');
 
+yield users.removeById(res._id);
+
 var res = yield users.find({ species: 'ferret' });
-res.should.have.length(3);
+res.should.have.length(2);
 ```
 
 # License
