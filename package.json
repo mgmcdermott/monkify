@@ -1,6 +1,6 @@
 {
   "name": "monkify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "mgmcdermott/monkify",
   "description": "A fork of tj's co-monk. co/thunkify wrappers updated for recent versions of monk.",
   "keywords": [
