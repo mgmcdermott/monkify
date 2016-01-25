@@ -15,7 +15,7 @@ $ npm install monkify
 
 ```js
 var monk = require('monk');
-var wrap = require('co-monk');
+var wrap = require('monkify');
 var db = monk('localhost/test');
 
 var users = wrap(db.get('users'));
