@@ -2,6 +2,7 @@
 # monkify
 
   A fork of [tj's co-monk](https://github.com/tj/co-monk). co/thunkify wrappers updated for recent versions of monk.
+  It doesn't seem like tj is maintaining co-monk anymore, so I've created this package to keep it updated with the current   methods exposed by monk collections.
 
 ## Installation
 
